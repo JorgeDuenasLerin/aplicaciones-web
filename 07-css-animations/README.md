@@ -31,4 +31,4 @@ Utiliza las animaciones CSS para que el botón vibre y se ilumine.
 Crea una web con 5 frases que signifiquen algo para ti.
 Cada frase estará centrada y ocupará el centro de la pantalla.
 
-Cuando el usuario pase el ratón por encima cambiar a un color llamativo, aumentará su tamaño al 100% de la pantalla y el texto será más grande.
+Cuando el usuario pase el ratón por encima cambiar a un color llamativo, aumentará su ancho al 100% de la pantalla y el texto será más grande.
