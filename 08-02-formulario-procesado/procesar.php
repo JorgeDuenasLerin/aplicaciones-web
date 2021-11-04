@@ -6,7 +6,8 @@
   </head>
   <body>
     <?php
-      print_r($_POST);       
+      print_r($_POST);
     ?>
+    <h1>Bienvenido <?php echo $_POST['prueba'] ?> </h1>
   </body>
 </html>
