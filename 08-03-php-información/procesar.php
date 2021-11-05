@@ -12,7 +12,7 @@
     $actual = file_get_contents($fichero);
     // Añade una nueva persona al fichero
     $actual .= $_POST['nombre']." ";
-    $actual .= $_POST['color']."\n";
+    $actual .= $_POST['favorito']."\n";
     // Escribe el contenido al fichero
     file_put_contents($fichero, $actual);
     ?>
