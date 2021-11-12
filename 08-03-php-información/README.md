@@ -27,3 +27,53 @@ Tareas para mejorar el sistema:
   - Investiga la etiqueta HTML meta refresh que debe ir en el head para que redirija automáticamente
 
 ## Guardar información y mostrar información
+
+Una vez conseguida una navegación entre las páginas, vamos a analizar cómo se guarda la información y cómo se muestra.
+
+### Guardado
+
+En el fichero procesar las líneas interesantes son:
+```
+$actual .= $_POST['nombre']." ";
+$actual .= $_POST['favorito']."\n";
+```
+
+Cosas interesantes:
+- ```$actual``` tiene la información del fichero
+- cuando se escribe un punto ```.``` se pegan las informaciones.
+- El caracter "\n" representa un intro en el fichero
+
+Guarda varios datos y muestra el contenido del fichero datos.txt
+
+### Mostrado
+
+Para mostrar la información debemos centrarnos en el fichero listado.php
+
+```
+        echo $data[0] . " " . $data[1] . "<br>";
+```
+
+En la línea anterior vemos como desde ```php``` estamos mostrando las columnas del fichero separadas por ```" "``` y al final de la línea escribimos un ```<br>```.
+
+De esta forma conseguimos mostrar un listado
+
+
+## Retos
+
+Ahora trabajaremos tocando este código, rompiéndolo y aprendiendo a través de retos:
+
+- Reto 1:
+  - Crea un nuevo campo de datos para mostrar la edad
+- Reto 2:
+  - Cambia el color de la línea del listado por el color elegido
+- Reto 3:
+  - Crea un campo para guardar el signo del zodiaco
+- Reto 4:
+  - Busca en internet imágenes pequeñas para cada signo y en vez de mostrar el signo muestra la imagen.
+
+
+## Retos master...
+
+Solo para valientes:
+- ¿Podrías anotar un símbolo para los mayores de edad? edad mayor a 18 años. Necesitas investigar en php la sentencia ```if```
+- ¿Podrías sacar la información del listado en una tabla?
