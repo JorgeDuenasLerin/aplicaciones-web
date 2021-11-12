@@ -1,6 +1,7 @@
 # Objetivos
 
-Introducción a los fundamentos de php
+Introducción a los fundamentos de php.
+Introducción a las sentencias condicionales.
 
 ## Referencia
 
