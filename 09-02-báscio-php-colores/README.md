@@ -5,7 +5,7 @@ Introducción a las sentencias iterativas.
 
 ## Referencia
 
-[Manual de php](apuntesPHP.pdf)
+[Manual de php](../09-01-básico-php-adivina/apuntesPHP.pdf)
 
 ## Generación de span de colores
 
