@@ -29,9 +29,14 @@ Entender las distintas tecnologías de la web
 </html>
 ```
 
+## Práctica guiada
+
+Estamos en cliente...
+
+Vamos a crear un página con un formulario que tenga 1 ```input text``` y dos botones.
+
 ## Conceptos
 
 - Control de elementos ```document.getElementById()``` ```document.getElementByClassName()```
 - Eventos!
-  - documento load
   - click
