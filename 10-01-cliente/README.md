@@ -33,7 +33,7 @@ Entender las distintas tecnologías de la web
 
 Estamos en cliente...
 
-Vamos a crear un página con un formulario que tenga 1 ```input text``` y dos botones.
+Vamos a crear un página con un formulario que tenga 1 ```input type='text'``` y dos botones.
 
 ## Conceptos
 
